@@ -1,0 +1,34 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "manifest_version": 2,
+  "name": "POE Trade简中修正版",
+  "description": "POE Trade国际服市集汉化简中修正版,涂油,升华珠宝,星团珠宝直接搜中文,大量物品补全简体中文",
+  "version": "3.17.20216",
+  "icons": {
+    "48": "images/icon.png",
+    "128": "images/128x128.png"
+  },
+  "browser_action": {
+    "default_title": "POE Trade zh修正",
+    "default_icon": "images/icon.png",
+    "default_popup": "options.html"
+  },
+  "permissions": ["*://www.pathofexile.com/trade/*","*://web.poe.garena.tw/trade/*","*://poe.game.qq.com/api/trade/*","*://poe.qq.com/*","*://gitee.com/oyxx/poe/raw/master/*","storage"],  
+  "content_scripts": [
+    {
+      "matches": ["*://www.pathofexile.com/trade/*"],
+      "js": ["js/app.js"],
+      "run_at": "document_start"
+    },
+    {
+      "matches": ["*://www.pathofexile.com/trade/*"],
+      "js": ["js/result.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": false
+  }
+}
