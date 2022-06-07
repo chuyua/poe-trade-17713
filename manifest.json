@@ -4,13 +4,13 @@
   "manifest_version": 2,
   "name": "POE Trade简中修正版",
   "description": "POE Trade国际服市集汉化简中修正版,涂油,升华珠宝,星团珠宝直接搜中文,大量物品补全简体中文",
-  "version": "3.17.20216",
+  "version": "3.18.20216",
   "icons": {
     "48": "images/icon.png",
     "128": "images/128x128.png"
   },
   "browser_action": {
-    "default_title": "POE Trade zh修正",
+    "default_title": "POE Trade zh 个人修正",
     "default_icon": "images/icon.png",
     "default_popup": "options.html"
   },
