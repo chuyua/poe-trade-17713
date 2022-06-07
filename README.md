@@ -4,6 +4,6 @@
 
 此为个人的修复版本
 
-https://github.com/chuyua/poe-trade-17713/archive/refs/heads/main.zip
+https://proxy.kamiui.ml/?url=https%3A%2F%2Fgithub.com%2Fchuyua%2Fpoe-trade-17713%2Farchive%2Frefs%2Fheads%2Fmain.zip
 
 点击链接即可下载最新ZIP版本
