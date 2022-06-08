@@ -213,7 +213,7 @@ let fetchData = {
             }
         }
         if (localdateselect_str==='cache'){
-            zh_url = 'https://gitee.com/oyxx/poe/raw/master/'
+            zh_url = 'https://raw.githubusercontent.com/chuyua/poe-trade-17713/main/'
             stats = await fetch(`${zh_url}stats`).then((res) => res.json())
             static = await fetch(`${zh_url}static`).then((res) => res.json())
             if (!!skip_str)(str='数据选择受【欧阳诛仙】在线fix !!!!\n\n')
