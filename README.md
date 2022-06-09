@@ -11,4 +11,5 @@ https://proxy.kamiui.ml/?url=https%3A%2F%2Fgithub.com%2Fchuyua%2Fpoe-trade-17713
 ★★★★★
 
 ★仅提供必要的新赛季暗金、命运卡等搜索功能，能力有限不提供词组汉化。
+
 ★目标仅仅只是个人能用为主、且用且珍惜
