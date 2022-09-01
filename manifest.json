@@ -14,7 +14,7 @@
     "default_icon": "images/icon.png",
     "default_popup": "options.html"
   },
-  "permissions": ["*://www.pathofexile.com/trade/*","*://web.poe.garena.tw/trade/*","*://poe.game.qq.com/api/trade/*","*://poe.qq.com/*","*://gitee.com/oyxx/poe/raw/master/*","storage"],  
+  "permissions": ["*://www.pathofexile.com/trade/*","*://web.poe.garena.tw/trade/*","*://poe.game.qq.com/api/trade/*","*://poe.qq.com/*","*://raw.githubusercontent.com/chuyua/poe-trade-17713/main/*","storage"],  
   "content_scripts": [
     {
       "matches": ["*://www.pathofexile.com/trade/*"],
